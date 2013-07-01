@@ -1,0 +1,5 @@
+en:
+  robots:
+    title: X-Robots-Tag
+    banner: Adds X-Robots-Tag HTTP header to all responses.
+    label: Value of X-Robots-Tag header

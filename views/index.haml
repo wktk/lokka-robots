@@ -1,0 +1,12 @@
+%h2= t('robots.title')
+%p= t('robots.banner')
+%form{action: '/admin/plugins/robots', method: :post}
+  %input{type: :hidden, name: :_method, value: :put}
+  .field
+    %p
+      %label{for: :x_robots_tag}= t('robots.label')
+    %p
+      %input{type: :text, id: :x_robots_tag, name: :x_robots_tag, value: @x_robots_tag}
+  .field
+    %p
+      %input{type: :submit}
